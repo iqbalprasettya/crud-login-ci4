@@ -1,9 +1,9 @@
 <div class="container">
-    <div class="row justify-content-md-center mt-5">
-        <div class="col-4">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title mb-4">Sign In</h5>
+                    <h5 class="card-title mb-4 py-3 text-center">Sign In</h5>
                     <?php if(session()->getFlashdata('error')):?>
                         <div class="alert alert-danger">
                             <?= session()->getFlashdata('error') ?>

@@ -7,21 +7,21 @@
                     <form action="<?= base_url('register'); ?>" method="post">
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" name="email" value="<?= set_value('email') ?>">
+                            <input type="email" class="form-control" id="email" name="email" value="<?= set_value('email') ?>" required>
                             <?php if(isset($validation)):?>
                                 <small class="text-danger"><?= $validation->getError('email') ?></small>
                             <?php endif;?>
                         </div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" name="password">
+                            <input type="password" class="form-control" id="password" name="password" required>
                             <?php if(isset($validation)):?>
                                 <small class="text-danger"><?= $validation->getError('password') ?></small>
                             <?php endif;?>
                         </div>
                         <div class="mb-3">
                             <label for="confirm_password" class="form-label">Confirm Password</label>
-                            <input type="password" class="form-control" id="confirm_password" name="confirm_password">
+                            <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
                             <?php if(isset($validation)):?>
                                 <small class="text-danger"><?= $validation->getError('confirm_password') ?></small>
                             <?php endif;?>
