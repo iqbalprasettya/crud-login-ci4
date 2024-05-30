@@ -1,0 +1,439 @@
+ERROR - 2024-05-28 08:43:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 08:43:30 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 08:44:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 08:45:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 08:45:42 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 08:46:42 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 08:47:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 08:49:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 09:19:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 09:20:47 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 09:21:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 09:22:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-28 09:31:43 --> Error connecting to the database: mysqli_sql_exception: Incorrect database name 'db_ci_crud   ' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_ci_crud   ', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Incorrect database name 'db_ci_crud   ' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-05-28 09:55:27 --> Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(126): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('post', 'bootstrap_pagination')
+ 4 APPPATH\Views\post-index.php(51): CodeIgniter\Pager\Pager->links('post', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\post-index.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('post-index', [], true)
+ 8 APPPATH\Controllers\Post.php(20): view('post-index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Post->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-28 09:55:30 --> Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(126): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('post', 'bootstrap_pagination')
+ 4 APPPATH\Views\post-index.php(51): CodeIgniter\Pager\Pager->links('post', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\post-index.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('post-index', [], true)
+ 8 APPPATH\Controllers\Post.php(20): view('post-index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Post->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-28 09:55:30 --> Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(126): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('post', 'bootstrap_pagination')
+ 4 APPPATH\Views\post-index.php(51): CodeIgniter\Pager\Pager->links('post', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\post-index.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('post-index', [], true)
+ 8 APPPATH\Controllers\Post.php(20): view('post-index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Post->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-28 09:55:31 --> Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(126): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('post', 'bootstrap_pagination')
+ 4 APPPATH\Views\post-index.php(51): CodeIgniter\Pager\Pager->links('post', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\post-index.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('post-index', [], true)
+ 8 APPPATH\Controllers\Post.php(20): view('post-index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Post->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-28 09:55:31 --> Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(126): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('post', 'bootstrap_pagination')
+ 4 APPPATH\Views\post-index.php(51): CodeIgniter\Pager\Pager->links('post', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\post-index.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('post-index', [], true)
+ 8 APPPATH\Controllers\Post.php(20): view('post-index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Post->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')

@@ -1,0 +1,1016 @@
+CRITICAL - 2024-05-29 02:39:28 --> Too few arguments to function App\Controllers\Employee::update(), 0 passed in D:\xampp3\htdocs\coba-frontend-ci\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Employee.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 02:46:52 --> Too few arguments to function App\Controllers\Employee::update(), 0 passed in D:\xampp3\htdocs\coba-frontend-ci\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Employee.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 02:48:09 --> Too few arguments to function App\Controllers\Employee::update(), 0 passed in D:\xampp3\htdocs\coba-frontend-ci\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Employee.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 02:48:47 --> Too few arguments to function App\Controllers\Employee::update(), 0 passed in D:\xampp3\htdocs\coba-frontend-ci\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Employee.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 02:49:49 --> Too few arguments to function App\Controllers\Employee::update(), 0 passed in D:\xampp3\htdocs\coba-frontend-ci\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Employee.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 02:52:14 --> Too few arguments to function App\Controllers\Employee::update(), 0 passed in D:\xampp3\htdocs\coba-frontend-ci\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Employee.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 02:53:23 --> Too few arguments to function App\Controllers\Employee::update(), 0 passed in D:\xampp3\htdocs\coba-frontend-ci\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Employee.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 02:57:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\edit_view.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit_view', [], true)
+ 4 APPPATH\Controllers\Employee.php(56): view('edit_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 02:57:21 --> Cannot use object of type stdClass as array
+in APPPATH\Views\edit_view.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit_view', [], true)
+ 4 APPPATH\Controllers\Employee.php(56): view('edit_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 02:57:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\edit_view.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit_view', [], true)
+ 4 APPPATH\Controllers\Employee.php(56): view('edit_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 02:59:50 --> Too few arguments to function App\Controllers\Employee::update(), 0 passed in D:\xampp3\htdocs\coba-frontend-ci\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Employee.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 02:59:55 --> Too few arguments to function App\Controllers\Employee::update(), 0 passed in D:\xampp3\htdocs\coba-frontend-ci\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Employee.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 03:18:29 --> Too few arguments to function App\Controllers\Employee::update(), 0 passed in D:\xampp3\htdocs\coba-frontend-ci\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Employee.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Employee->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+ERROR - 2024-05-29 04:00:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) UNSIGNED NOT NULL,
+	`username` VARCHAR(255) NOT NULL UNIQUE,
+	`email` V...' at line 2 in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\app\Database\Migrations\2024-05-29-034930_AddUser.php(42): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddUser->up()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-05-29 04:01:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) UNSIGNED NOT NULL,
+	`username` VARCHAR(255) NOT NULL UNIQUE,
+	`email` V...' at line 2 in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\app\Database\Migrations\2024-05-29-034930_AddUser.php(42): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddUser->up()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-05-29 04:03:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) UNSIGNED NOT NULL,
+	`username` VARCHAR(255) NOT NULL UNIQUE,
+	`email` V...' at line 2 in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\app\Database\Migrations\2024-05-29-034930_AddUser.php(42): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddUser->up()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-05-29 04:04:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) UNSIGNED NOT NULL,
+	`username` VARCHAR(255) NOT NULL UNIQUE,
+	`email` V...' at line 2 in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\app\Database\Migrations\2024-05-29-034930_AddUser.php(42): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddUser->up()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-05-29 04:04:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) UNSIGNED NOT NULL,
+	`username` VARCHAR NOT NULL,
+	`email` VARCHAR NOT N...' at line 2 in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\app\Database\Migrations\2024-05-29-034930_AddUser.php(42): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddUser->up()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-05-29 04:06:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) UNSIGNED NOT NULL,
+	`username` VARCHAR(255) NOT NULL UNIQUE,
+	`email` V...' at line 2 in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\app\Database\Migrations\2024-05-29-034930_AddUser.php(42): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddUser->up()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2024-05-29 06:19:17 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Register.php(18): view('register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:19:19 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Register.php(18): view('register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:19:19 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Register.php(18): view('register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:23:29 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:23:30 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:23:30 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:23:30 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:25:41 --> Invalid file: "headeer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('headeer.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('headeer', [], true)
+ 3 APPPATH\Controllers\Register.php(20): view('headeer', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:25:42 --> Invalid file: "headeer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('headeer.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('headeer', [], true)
+ 3 APPPATH\Controllers\Register.php(20): view('headeer', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:25:47 --> Invalid file: "headeer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('headeer.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('headeer', [], true)
+ 3 APPPATH\Controllers\Register.php(20): view('headeer', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:25:48 --> Invalid file: "headeer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('headeer.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('headeer', [], true)
+ 3 APPPATH\Controllers\Register.php(20): view('headeer', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:26:04 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:26:04 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:26:05 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:26:12 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:26:16 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:26:17 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:26:17 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:26:42 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:26:42 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:27:07 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:27:20 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(22): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:27:21 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(22): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:27:55 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(21): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:27:55 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(21): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:30:46 --> Undefined variable $title
+in APPPATH\Views\header.php on line 5.
+ 1 APPPATH\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Register.php(21): view('header', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:34:56 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(40): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:44:24 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(40): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:45:07 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(40): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:47:12 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(40): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:47:52 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(40): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:48:42 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Register.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:48:44 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Register.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:48:45 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Register.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:48:46 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Register.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:48:52 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Register.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:48:54 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Register.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:48:55 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Register.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 06:49:04 --> Invalid file: "employee.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('employee', [], true)
+ 3 APPPATH\Controllers\Register.php(46): view('employee')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+ERROR - 2024-05-29 07:05:35 --> mysqli_sql_exception: Unknown table 'db_ci_crud.users' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(306): mysqli->query('DROP TABLE `use...', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `use...')
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `use...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `use...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\app\Database\Migrations\2024-05-29-034930_AddUser.php(40): CodeIgniter\Database\Forge->dropTable('users')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddUser->down()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-05-29 07:07:12 --> mysqli_sql_exception: Unknown table 'db_ci_crud.users' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(306): mysqli->query('DROP TABLE `use...', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `use...')
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `use...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `use...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\app\Database\Migrations\2024-05-29-034930_AddUser.php(40): CodeIgniter\Database\Forge->dropTable('users')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddUser->down()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-05-29 07:08:15 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_ci_crud' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_ci_crud', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_ci_crud' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-29 07:11:30 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_ci_crud' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_ci_crud', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_ci_crud' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-29 07:11:54 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_ci_crud' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_ci_crud', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_ci_crud' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-29 07:12:52 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_ci_crud' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_ci_crud', 3306, '', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_ci_crud' in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-05-29 07:13:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`username`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_gener...' at line 7 in D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp3\htdocs\coba-frontend-ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp3\htdocs\coba-frontend-ci\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp3\htdocs\coba-frontend-ci\app\Database\Migrations\2024-05-29-034930_AddUser.php(35): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddUser->up()
+#6 D:\xampp3\htdocs\coba-frontend-ci\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp3\htdocs\coba-frontend-ci\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp3\htdocs\coba-frontend-ci\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp3\htdocs\coba-frontend-ci\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2024-05-29 07:23:24 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(41): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 07:23:55 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(41): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 07:28:45 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(41): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 07:28:59 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(41): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 07:35:06 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Register.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 07:35:09 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Register.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 08:09:04 --> Undefined variable $getKaryawan
+in APPPATH\Views\employee_view.php on line 26.
+ 1 APPPATH\Views\employee_view.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getKaryawan', 'D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\employee_view.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp3\\htdocs\\coba-frontend-ci\\app\\Views\\employee_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('employee_view', [], true)
+ 5 APPPATH\Controllers\Register.php(20): view('employee_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 08:19:29 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(39): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 08:22:05 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(39): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 08:27:37 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(39): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 08:28:11 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Register.php(39): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Register->register()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 09:07:07 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(16): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 09:07:29 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(16): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 09:07:30 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(16): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 09:07:30 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(16): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 09:07:30 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(16): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 09:07:40 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(13): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 09:07:40 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(13): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 09:07:40 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(13): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
+CRITICAL - 2024-05-29 09:07:41 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(13): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp3\\htdocs\\coba-frontend-ci\\public\\index.php')
