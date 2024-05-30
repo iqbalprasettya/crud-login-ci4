@@ -23,6 +23,6 @@ $routes->get('/logout', 'Login::logout', ['filter' => 'authFilter']);
 $routes->get('/employee', 'Employee::index', ['filter' => 'authFilter']);
 $routes->get('/employee/edit/(:num)', 'Employee::edit/$1', ['filter' => 'authFilter']);
 
-$routes->post('/employee/add', 'Employee::add', ['filter' => 'authFilter']);
+$routes->post('/employee', 'Employee::add', ['filter' => 'authFilter']);
 $routes->post('/employee/update/', 'Employee::update', ['filter' => 'authFilter']);
 $routes->get('/employee/hapus/(:any)', 'Employee::hapus/$1', ['filter' => 'authFilter']);

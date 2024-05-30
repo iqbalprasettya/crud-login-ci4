@@ -35,7 +35,7 @@ class Employee extends Controller
         // dd($data);
         $model->saveKaryawan($data);
         echo '<script>
-                alert("Selamat! Berhasil Menambah Data Vaksinasi Karyawan");
+                
                 window.location="' . base_url('employee') . '"
             </script>';
     }
